@@ -1,0 +1,25 @@
+.order-table {
+  height: 320px;
+
+  &__head {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  &__col {
+    font-size: 14px;
+    padding: 10px;
+
+    &--border {
+      border-right: 1px solid #555555;
+    }
+  }
+}
+
+.sticky-table .y-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.sticky-table .y-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #555555;
+}
